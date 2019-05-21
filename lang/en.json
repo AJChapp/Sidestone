@@ -7,7 +7,8 @@
         "navigate": "Navigate",
         "info": "Info",
         "categories": "Categories",
-        "call_us": "Call us at {phone_number}"
+        "call_us": "Call us at {phone_number}",
+        "powered_by": "Powered by this guy ->"
     },
     "home": {
         "heading": "Home"
@@ -670,6 +671,7 @@
         }
     },
     "products": {
+        "size_chart": "Size Chart",
         "current_stock": "Current Stock:",
         "quantity": "Quantity:",
         "quantity_decrease": "Decrease Quantity:",

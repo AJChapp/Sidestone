@@ -1,0 +1,10 @@
+{
+    "footer": {
+        "brands": "El Popular Brands",
+        "navigate": "El Navigate",
+        "info": "El Info",
+        "categories": "El Categories",
+        "call_us": "El Call us at {phone_number}",
+        "powered_by": "El Powered by this guy ->"
+    }  
+}
