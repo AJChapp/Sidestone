@@ -14,6 +14,13 @@
             // Change document class from no-js to js so we can detect this in css
             document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
         </script>
+        
+        <style type="text/css" media="screen, print">
+            @font-face {
+                font-family: "Aurebesh";
+                src: url("{{cdn 'fonts/Aurebesh.ttf'}}");
+            }
+        </style>
 
         {{ getFontsCollection }}
         {{{stylesheet '/assets/css/theme.css'}}}
