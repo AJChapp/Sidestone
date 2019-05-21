@@ -510,7 +510,6 @@
       {
         "type": "font",
         "label": "Header Logo Font Family",
-        "force_reload": true,
         "id": "header_logo_font",
         "options": [
             {
@@ -521,7 +520,7 @@
             {
                 "group": "Normal",
                 "label": "Macondo",
-                "value": "Google_Macondo_Swash_Caps"
+                "value": "Google_Macondo+Swash+Caps"
             }
         ]
       },
