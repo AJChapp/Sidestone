@@ -503,6 +503,29 @@
         "content": "Logo"
       },
       {
+        "type": "color",
+        "label": "Header Text Color",
+        "id": "header_logo_color"
+      },
+      {
+        "type": "font",
+        "label": "Header Logo Font Family",
+        "force_reload": true,
+        "id": "header_logo_font",
+        "options": [
+            {
+                "group": "Fantasy",
+                "label": "Aurebesh",
+                "value": "Aurebesh"
+            },
+            {
+                "group": "Normal",
+                "label": "Macondo",
+                "value": "Google_Macondo_Swash_Caps"
+            }
+        ]
+      },
+      {
         "type": "select",
         "label": "Logo position",
         "id": "logo-position",

@@ -44,6 +44,8 @@
     "Firefox ESR"
   ],
   "settings": {
+    "header_logo_font": "Aurebesh",
+    "header_logo_color": "#C44444",
     "hide_breadcrumbs": false,
     "hide_page_heading": false,
     "hide_category_page_heading": false,
