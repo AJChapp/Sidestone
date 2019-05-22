@@ -546,18 +546,24 @@ $cart-item-label-offset:                $cart-thumbnail-maxWidth + $cart-item-sp
 // 1. Need to vertically align a block of text
 //
 // -----------------------------------------------------------------------------
-
 .previewCartList {
     @include u-listReset;
     border-collapse: collapse;
-    display: table;
+    display: block;
     table-layout: fixed;
     width: 100%;
+    max-height: 310px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.previewCartList li:first-of-type{
+    margin-top: 5px;
 }
 
 .previewCartItem {
     @include grid-row;
-    display: table-row;
+    height: 100px;
     line-height: lineHeight("smaller");
 
     + .previewCartItem {
