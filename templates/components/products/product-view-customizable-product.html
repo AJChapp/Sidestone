@@ -58,6 +58,15 @@
                 if(customOptions.indexOf("engravable") >= 0 &&  customOptions.indexOf("labelable") >= 0){
                     $('#customBox').html('<h1>Engravable & Labelable</h1>');
                 }
+                else if( customOptions.indexOf("engravable") >= 0){
+                    $('#customBox').html('<h1>Engravable</h1>');
+                }
+                else if( customOptions.indexOf("labelable") >= 0){
+                    $('#customBox').html('<h1>Labelable</h1>');
+                }
+                else{
+                    $('#customBox').empty();
+                }
             </script>
 
             <div class="productView-rating"{{#if product.num_reviews '>' 0}}{{#if schema}} itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"{{/if}}{{/if}}>
