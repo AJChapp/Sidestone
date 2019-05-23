@@ -30,13 +30,10 @@
                 {{/or}}
             </div>
 
-            <p>
-                {{pluck (limit product.custom_fields 2) 'name'}}
-            </p>
+            <script>
+                let customOptions = [];    
+            </script>
 
-    <script>
-        let customOptions = [];    
-    </script>
             {{#each product.custom_fields}} 
                 {{#if name '==' "Engravable" '&&' value '==' "true"}}
                     <script>
@@ -181,8 +178,8 @@
 
                 {{#if theme_settings.show_custom_fields_tabs '!==' true}}
                     {{#each product.custom_fields}}
-                        {{#if name '==' "Engravable" }}
-                            <p>Place holder</p>
+                        {{#if name '==' "Engravable"}}
+                        {{else if name '==' "Labelable"}}
                         {{else}}
                             <dt class="productView-info-name">{{name}}:</dt>
                             <dd class="productView-info-value">{{{value}}}</dd>
